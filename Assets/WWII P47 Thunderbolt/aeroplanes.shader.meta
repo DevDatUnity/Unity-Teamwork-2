@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: ac04e6fab8212304b85bf63c1140d480
+ShaderImporter:
+  defaultTextures:
+  - _Diffuse: {fileID: 2800000, guid: 4de19abc98294c44fba24d504ba4c851, type: 3}
+  - _Normals: {fileID: 2800000, guid: 4de19abc98294c44fba24d504ba4c851, type: 3}
+  - _Specular: {fileID: 2800000, guid: 4de19abc98294c44fba24d504ba4c851, type: 3}
+  - _Reflection: {fileID: 8900000, guid: 66887de9b6c459046aa11c3ac1c852b8, type: 3}
+  userData: 
