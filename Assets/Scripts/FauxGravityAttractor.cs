@@ -7,7 +7,7 @@ public class FauxGravityAttractor : MonoBehaviour {
     public void Attract(Transform body)
     { 
         Vector3 gravityUp = (body.position - transform.position).normalized;
-        Vector3 bodyUp = body.up;
+        Vector3 bodyUp = body.right;
 
         body.rigidbody.AddForce(gravityUp * gravity);
         Quaternion targetRotation = Quaternion.FromToRotation(bodyUp, gravityUp) * body.rotation;
